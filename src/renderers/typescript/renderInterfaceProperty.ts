@@ -8,10 +8,9 @@ export default function renderInterfaceProperty(
   return [
     descriptionComment(description),
     name,
-    "?",
     ": ",
     localization ? `LocalizedField<${type}>` : type,
-    " | undefined",
+    " | null",
     ";",
   ].join("")
 }
