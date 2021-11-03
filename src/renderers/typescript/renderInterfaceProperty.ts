@@ -11,7 +11,7 @@ export default function renderInterfaceProperty(
     required ? "" : "?",
     ": ",
     localization ? `LocalizedField<${type}>` : type,
-    required ? "" : " | undefined",
+    " | undefined",
     ";",
   ].join("")
 }
