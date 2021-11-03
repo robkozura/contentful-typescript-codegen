@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist",
-    "postinstall": "npm install && npm run build",
+    "prepare": "yarn install && yarn build",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts && chmod +x dist/contentful-typescript-codegen.js",
     "commit": "git-cz",
     "format": "prettier --write \"**/*.ts\"",
