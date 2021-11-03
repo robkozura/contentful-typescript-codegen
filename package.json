@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/intercom/contentful-typescript-codegen"
   },
-  "version": "0.0.1-development",
+  "version": "0.0.0-development",
   "main": "dist/contentful-typescript-codegen.js",
   "bin": "./dist/contentful-typescript-codegen.js",
   "files": [
@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "postinstall": "npm run build",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts && chmod +x dist/contentful-typescript-codegen.js",
     "commit": "git-cz",
