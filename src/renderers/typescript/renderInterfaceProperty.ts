@@ -8,7 +8,7 @@ export default function renderInterfaceProperty(
   return [
     descriptionComment(description),
     name,
-    required ? "" : "?",
+    "?",
     ": ",
     localization ? `LocalizedField<${type}>` : type,
     " | undefined",
