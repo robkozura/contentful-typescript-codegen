@@ -1,13 +1,13 @@
 {
-  "name": "contentful-typescript-codegen",
+  "name": "@cloudbees/contentful-typescript-codegen",
   "description": "Generate TypeScript types from your Contentful environment.",
   "license": "MIT",
-  "author": "Steven Petryk <steven.petryk@intercom.io>",
+  "author": "Robert Kozura <rkozura@cloudbees.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/intercom/contentful-typescript-codegen"
+    "url": "https://github.com/robkozura/contentful-typescript-codegen"
   },
-  "version": "0.0.0-development",
+  "version": "0.1.0",
   "main": "dist/contentful-typescript-codegen.js",
   "bin": "./dist/contentful-typescript-codegen.js",
   "files": [
