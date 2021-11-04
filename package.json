@@ -1,5 +1,5 @@
 {
-  "name": "@cloudbees/contentful-typescript-codegen",
+  "name": "@rkozura/contentful-typescript-codegen",
   "description": "Generate TypeScript types from your Contentful environment.",
   "license": "MIT",
   "author": "Robert Kozura <rkozura@cloudbees.com>",
@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/robkozura/contentful-typescript-codegen"
   },
-  "version": "0.1.0",
+  "version": "1.0.1",
   "main": "dist/contentful-typescript-codegen.js",
   "bin": "./dist/contentful-typescript-codegen.js",
   "files": [
@@ -15,7 +15,6 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist",
-    "prepare": "yarn build",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts && chmod +x dist/contentful-typescript-codegen.js",
     "commit": "git-cz",
     "format": "prettier --write \"**/*.ts\"",
