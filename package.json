@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/robkozura/contentful-typescript-codegen"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/contentful-typescript-codegen.js",
   "bin": "./dist/contentful-typescript-codegen.js",
   "files": [
