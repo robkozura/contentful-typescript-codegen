@@ -65,7 +65,7 @@ function renderSys(sys: Sys) {
       createdAt: string;
       updatedAt: string;
       locale: string;
-      contentType: {
+      contentType?: {
         sys: {
           id: '${sys.id}';
           linkType: 'ContentType';
